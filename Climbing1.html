@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fixed-Width Page</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    } body {
+        background: whitesmoke;
+    } #page {
+        width: 1024px;
+        height: 1525px;
+        background: white;
+        border: 1px solid darkgray;
+        box-shadow: 2px 3px 6px darkgray;
+        margin: 24px auto;
+    } #textbox {
+        width: 768px;
+        height: 768px;
+        margin: 48px auto;
+        border: 1px dashed gray;
+    } #banner {
+        width: 1024px;
+		height: 20%;
+    } h1 {
+        font: 48pt/1.0em 'Carter One', sans-serif;
+        text-align: center;
+        margin: 54px 0 0 0;
+        color: black;
+        text-shadow: 2px 3px 6px slategrey;
+    } p {
+        font: 14pt/1.4em Roboto;
+        width: 768px;
+        margin: 24px auto;
+        padding-bottom: 175px;
+    } img.float-left {
+        width: 300px;
+        float: left;
+        margin: 0 24px 0 0;
+        border: 1px solid darkgray;
+        box-shadow: 2px 3px 6px darkgray;
+    } ul {
+        width: 100%;
+        margin-top: -4px;
+    } li {
+        font: 14pt/2.0em Roboto;
+        list-style: none;
+        float: left;
+        width: 50%;
+        height: 40px;
+        text-align: center;
+        background: rgba(169,225,245,0.80);
+    } a li {
+        color: black;
+    } a {
+        text-decoration: none;
+    } li:hover, a li:hover {
+        background: rgba(169,225,245,0.50);
+	}video, iframe{
+		width:640px;
+		height: 360px;
+		display: block;
+		margin: 36px auto;
+		border: 1px solid black;
+		box-shadow: 2px 3px 6px gray;
+	}
+</style>
+</head>
+
+<body>
+    <div id="page">
+        <img id="banner" src="o1559kip.jpg" />
+        <ul>
+            <li>Home</li>
+			<a href="climbing2.html"><li>My Summer Climbing Experience</li>
+			</a>
+        </ul>
+        <h1>Summer Climbing</h1>
+        <p><img class="float-left" src="Teresa.jpeg" />
+            UNLV Student Recreation and Wellness has many services and events for all students and community members. They have many programs, including the Outdoor Adventures program. This program hosts outdoor trips, activites and their bike shop.There is one thing OA is known for is its climbing walls. Right now, SRWC has one of the tallest rock walls in the Nevada area (roughly 43 feet high). The program hosts many events and activities at their walls. Building community among beginners and professionals alike. More information can be found on their <a href="https://www.unlv.edu/campusrec/outdoor-adventures/climbing-facilities">website</a>.</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/vea5leHve0k?si=QATT4l5Gz1H2UiPN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<!--
+ <video controls poster="Teresa_Still_Image.png">
+			<source src="Assignment 2.mp4"  />
+		</video> -->
+	</div>
+</body>
+</html>
