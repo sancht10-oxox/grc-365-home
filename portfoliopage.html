@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Cherry+Bomb+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    } @font-face {
+        font-family: Candara;
+        src: url("Candara.ttf");
+    } h1 {
+        font: 48pt/1.4em Cherry Bomb One, sans-serif;
+        text-align: center;
+        text-shadow: 1px 2px 3px lightskyblue;
+        margin: 24px 0;
+    } #textbox {
+        width: 1024px;
+        height: 928px;
+        margin: 0 auto;
+        background: whitesmoke;
+        box-shadow: 2px 3px 6px gainsboro;
+        border: 1px solid gainsboro;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+    } figure {
+        margin: 24px;
+    } img, .zoom {
+        width: 200px;
+        height: 200px;
+        border: 1px solid gray;
+        box-shadow: 2px 3px 6px gray;
+        transition: transform 0.5s;
+    } figcaption {
+        font: 12pt/1.4em Roboto, sans-serif;
+		margin-top: 3px;
+		text-align: center;
+    } .zoom {
+        background: url("thumb-tulip.jpg");
+        background-size: 100%;
+        background-position: center;
+    } img:hover {
+        transform: scale(1.03);
+        transition: transform 0.5s;
+    } .zoom:hover {
+        background-size: 105%;
+        transition: background-size 0.5s;
+	} figcaption: nth-child (3){
+		text-align: center;
+	}.thumb:nth-child(5){
+		margin-top: 20px;	
+		}
+</style>
+</head>
+
+<body>
+    <h1>Portfolio</h1>
+    <div id="textbox">
+        <!-- Leaves photo -->
+        <figure>
+		<a href="Current Joys Final.png" />
+			<img class=thumb src="Current Joys Thumbnail.png"/></a>
+            <figcaption>
+			<p>Current Joys</p>
+			<p>Concert Drawing</p>
+            </figcaption>
+        </figure>
+	 <figure>
+		<a href="Cherish Fashion Magazine Cover.png" />
+			<img class=thumb src="Cherish Fashion Magazine Cover Thumbnail.png"/></a>
+            <figcaption>
+				<p>Cherish Fashion</p>
+				<p>Magazine Cover</p>
+            </figcaption>
+        </figure>
+	 <figure>
+		<a href="Project 4 DDD FINAL.png" />
+			<img class=thumb src="Dumpster Diving DIY Thumbnail.png"/></a>
+            <figcaption>
+            <p>Dumpster Diving DIY</p>
+			<p>Event Poster</p>
+            </figcaption>
+        </figure>
+ <figure>
+		<a href="Popeyes Insta Feed Post.png" />
+			<img class=thumb src="Popeyes x Jazz Fest Instagram Feed Thumbnail.png"/></a>
+            <figcaption>
+            <p>Popeyes X Jazz Fest</p>
+			<p>Instagram Feed Post</p>
+            </figcaption>
+        </figure>
+ <figure>
+		<a href="DreamA - Video Game Cover Art.png"/>
+			<img class=thumb src="DreamA - Video Game Cover Art Thumbnail.png"/></a>
+            <figcaption>
+            DreamA-Video Game Cover Art
+            </figcaption>
+        </figure>
+    </div>
+</body>
+</html>
