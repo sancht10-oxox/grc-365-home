@@ -14,14 +14,25 @@
     } @font-face {
         font-family: Candara;
         src: url("Candara.ttf");
-    } h1 {
-        font: 48pt/1.4em Cherry Bomb One, sans-serif;
+	  } body {
+        background: whitesmoke;
+    } #page {
+        width: 1024px;
+        height: 1525px;
+        background: white;
+        border: 1px solid darkgray;
+        box-shadow: 2px 3px 6px darkgray;	
+       } #banner {
+        width: 1024px;
+		height: 10%; 
+	} h1 {
+        font: 48pt/1.5em Cherry Bomb One, sans-serif;
         text-align: center;
         text-shadow: 1px 2px 3px lightskyblue;
         margin: 24px 0;
     } #textbox {
-        width: 1024px;
-        height: 928px;
+        width: 900px;
+        height: 650px;
         margin: 0 auto;
         background: whitesmoke;
         box-shadow: 2px 3px 6px gainsboro;
@@ -57,10 +68,34 @@
 	}.thumb:nth-child(5){
 		margin-top: 20px;	
 		}
+	 } ul {
+        width: 100%;
+        margin-top: -4px;
+    } li {
+        font: 14pt/2.0em Roboto;
+        list-style: none;
+        float: left;
+        width: 50%;
+        height: 40px;
+        text-align: center;
+        background: rgba(169,225,245,0.80);
+    } a li {
+        color: black;
+    } a {
+        text-decoration: none;
+    } li:hover, a li:hover {
+        background: rgba(169,225,245,0.50);
 </style>
 </head>
 
 <body>
+	 <div id="page">
+        <img id="banner" src="Rain.jpg" />
+        <ul>
+            <li>Home</li>
+			<a href="tables.html"><li>Portfolio Data </li>
+			</a>
+        </ul>
     <h1>Portfolio</h1>
     <div id="textbox">
         <!-- Leaves photo -->
