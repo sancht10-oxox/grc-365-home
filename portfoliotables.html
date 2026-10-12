@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>tables</title>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Cherry+Bomb+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+	* {
+		margin: 0;
+        padding: 0;
+	} @font-face {
+		 font-family: Candara;
+        src:  url("Candara.ttf");
+	  } body {
+        background: whitesmoke;
+    } #page {
+        width: 1024px;
+        height: 1525px;
+        background: white;
+        border: 1px solid darkgray;
+        box-shadow: 2px 3px 6px darkgray;	
+       } #banner {
+        width: 1024px;
+		height: 10%; 
+	} h1 {
+        font: 48pt/1.5em Cherry Bomb One, sans-serif;
+        text-align: center;
+        text-shadow: 1px 2px 3px lightskyblue;
+        margin: 24px 0;
+    } #textbox {
+        width: 900px;
+        height: 300px;
+        margin: 0 auto;
+        background: whitesmoke;
+        box-shadow: 2px 3px 6px gainsboro;
+        border: 1px solid gainsboro;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	 } ul {
+        width: 100%;
+        margin-top: -4px;
+    } li {
+        font: 14pt/2.0em Roboto;
+        list-style: none;
+        float: left;
+        width: 50%;
+        height: 40px;
+        text-align: center;
+        background: rgba(169,225,245,0.80);
+    } a li {
+        color: black;
+    } a {
+        text-decoration: none;
+    } li:hover, a li:hover {
+        background: rgba(169,225,245,0.50);
+	} table {
+		margin: 0 auto;
+		border: 1px solid gray;
+		font: 14pt/1.4em Roboto, sans-serif;
+		box-shadow: 2px 3px 6px gray;
+		border-collapse: collapse;
+		background-color: lightblue;
+		background-size: 100%
+	} tr:nth-child(odd) {
+		background-color:aliceblue;
+	}td, th{
+		padding: 4px 8px;
+	}
+</style>
+</head>
+
+<body>
+	 <div id="page">
+        <img id="banner" src="Rain.jpg" />
+        <ul>
+			<a href="portfolio.html"><li>Home</li></a>
+			<li>Portfolio Data </li>
+        </ul>
+    <h1>Portfolio</h1>
+    <div id="textbox">
+	<table>
+		<tr>
+			<th colspan="5">Portfolio Data</th>
+		</tr>		
+		<tr>	
+			<th>Name&nbsp;</th>
+			<th>Medium&nbsp;&nbsp;</th>
+			<th>Class&nbsp;</th>
+			<th>Year&nbsp;</th>
+			<th>Resolution</th>
+		</tr>
+	  <tr>
+			<td>Current Joys</td>
+			<td>Digital Painting</td>
+			<td>Digital Illustration I</td>
+		    <td>Spring 2026</td>
+		    <td>11.9 MB</td>
+		</tr>
+		<tr>
+			<td>Cherish F.M Cover</td>
+			<td>Graphic Design</td>
+			<td>Design & Media Studio I</td>
+			<td>Fall 2025</td>
+			<td>3.62 MB</td>
+		</tr>
+		  <tr>
+			<td>D.D.D Event Poster</td>
+			<td>Digital Collage</td>
+			<td>Typography I</td>
+			<td>Fall 2025</td>
+			<td>3.38 MB</td>  
+		</tr>
+		<tr>
+			<td>Popeye x Jazz Fest</td>
+			<td>Graphic Design</td>
+			<td>Design Methods and Research I</td>
+			<td>Spring 2026</td>
+			<td>3.02 MB</td>
+		</tr>
+		<tr>
+			<td>DreamA</td>
+			<td>Digital Art</td>
+			<td>Digital Illustration I</td>
+			<td>Spring 2026</td>
+			<td>3.18 MB</td>
+		</tr>
+	</table>
+</body>
+</html>
